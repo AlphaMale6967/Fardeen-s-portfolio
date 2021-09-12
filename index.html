@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fardeen's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+            <nav class="navbar">
+                <img class="logo-img" src="/logo/my-logo.png" alt="">
+                <div class="navbar-menu">
+                    <a href="#aboutme"><h1>About Me</h1></a>
+                    <a href="#skills"><h1>Skills</h1></a>
+                    <a href="#project"><h1>Project</h1></a>
+                    <a href="#letsconnect"><h1>Let's Connect</h1></a>
+                </div>
+            </nav>
+        <section class="hero-section">
+            <img class="profile-img" src="/images/my-image.jpg" alt="">
+            <div class="my-details">
+                <h1>Khan Fardeen Athar Ali</h1>
+                <h4>(Full Stack Developer)</h4>
+            </div>
+        </section>
+        <section class="about-me" id="aboutme">
+            <h1>What I Do...</h1>
+            <p class="aboutme-text">
+                Hello, I am a <strong>Software Engineer</strong> and my area of specialization is <strong>Full Stack
+                    Development</strong> I have experience of more than 6 months in Web Development and I have worked on various Projects.
+            </p>
+        </section>
+        <section class="skillsandprojects">
+            <div class="skills" id="skills">
+                <h1 class="card-heading">
+                    Skills
+                </h1>
+                <img src="/logo/html5-logo.svg" alt="" title="HTML">
+                <img src="/logo/css-logo.svg" alt="" title="CSS">
+                <img src="/logo/javascript-logo.svg" alt="" title="JavaScript">
+                <img src="/logo/python-logo.svg" alt="" title="Python">
+                <img src="/logo/bootstrap-logo.svg" alt="" title="BootStrap">
+                <img src="/logo/jquery-logo.svg" alt="" title="jQuery">
+                <img src="/logo/django-logo.svg" alt="" title="Django">
+                <img src="/logo/react-logo.svg" alt="" title="React.js">
+                <img src="/logo/mysql-logo.svg" alt="" title="mySQL">
+            </div>
+            <div class="projects" id="project">
+                <h1 class="card-heading">Projects</h1>
+                <div class="project-container">
+                    <img src="/logo/codingexpo-icon.png" style="height: 30px;" alt="">
+                    <div class="project-description">
+                        <h4>
+                            Employee Management System
+                        </h4>
+                        <p>
+                            I created Employee Management System in my Internship at CodingExpo, Noida. In this project I worked on the modules like Authentication System, Department module, User Module on which CRUD Operations can be Performed, Notice Module, Permissions module for both admin and staff, sending emails to individual user, to particular department or to all within the Web APP.  
+                        </p>
+                        </p>
+                    </div>
+                </div>
+                <h1 class="card-heading">Projects</h1>
+                <div class="project-container">
+                    <img src="/logo/stock-management-system-logo.svg" alt="">
+                    <div class="project-description">
+                        <h4>
+                            Stock Managment System 
+                        </h4>
+                        <p>
+                            In Stock Management System I added Authentication System, after login user can Add and Delete the Items in Stock list. User can also Receive and Issue the items and check the history of Received and Issued Items and Search the Items. User can also Download the CSV file of List. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-form" id="letsconnect">
+            <h1 style="font-size: 25px;">Let's Connect</h1>
+            <hr/>
+            <div class="form-group">
+                <label for="name">Enter Full Name</label>
+                <br>
+                <input type="text" name="name" id="name" class="name-box" placeholder="Fullname">
+            </div>
+            <div class="form-group">
+                <label for="name">Email:</label>
+                <br>
+                <input type="email" name="email" id="email" class="email-box" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" class="textarea" placeholder="Enter Your Message"></textarea>
+            </div>
+            <button class="submit-class" onclick={submit()}>Connect</button>
+        </section>
+    </main>
+</body>
+
+</html>
