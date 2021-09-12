@@ -137,6 +137,11 @@ main::-webkit-scrollbar{
     text-align: center;
 }
 
+.name{
+    text-align: center;
+    font-size: 30px;
+}
+
 .about-me{
     margin: 1rem;
     text-align: center;
@@ -278,7 +283,7 @@ main::-webkit-scrollbar{
     }
 
     .hero-section > .my-details > h1{
-        font-size: 20px;
+        font-size: 30px;
         margin: 0;
         font-weight: 400;
     }
