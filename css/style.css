@@ -45,7 +45,7 @@ body::before{
 
 body{
     font-family: 'Hina Mincho', serif;
-    background-image: url(/images/texture-990104_1920.jpg);
+    background-image: url(/images/dark-background.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
